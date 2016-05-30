@@ -12,7 +12,7 @@
 
 * What is a commit? What makes a good commit message?
    
-  A commit is basically a message you leave yourself that explains what was changed since the last commit. A good commit message is detailed and explains everything that has been changed.
+  A commit is a message you leave yourself that explains what was changed since the last commit. A good commit message is detailed and explains everything that has been changed.
 
 * What is a merge conflict?
 
