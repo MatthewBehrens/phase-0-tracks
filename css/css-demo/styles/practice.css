@@ -1,0 +1,26 @@
+#contact-info
+{
+	font-size: .8em;
+}
+
+.job
+{
+	background-color: #e9e5dc;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 300px;
+    height: 200px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.experience {
+	font-size: .8em;
+}
+
+.featured {
+	color: red;
+}
