@@ -1,0 +1,36 @@
+Release 0:
+
+*Take input of floor and task from master
+*Navigate through hall
+*Stop at elevator door
+*Press elevator button
+*wait for elevator door to open
+*Step in
+*if input floor number equals one of the floor numbers listed press that button
+	else return to master for other input
+*wait for elevator to go to that floor and the door opens
+*Step through the door
+*Proceed with task
+
+Release 1:
+
+Algorithm for making a peanut butter and jelly sandwich
+
+*go to pantry and take out peanut butter, bread, and jelly
+*go to table
+*put items on the table
+*go to drawer
+*take out a knife
+*go to table
+*put knife on table
+*open peanut butter, bread, and jelly
+*take 2 pieces of bread out
+*put bread on table
+*pick up knife
+*put knife in peanut butter and take some out
+*put peanut buttered knife and spread on bread
+*put knife down
+*take jelly and squeeze on peanut butter and bread
+*put jelly down
+*take other piece of bread and put on top
+*take sandwich and eat
