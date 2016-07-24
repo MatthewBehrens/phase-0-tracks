@@ -1,0 +1,23 @@
+sqlite> SELECT * FROM items;
+1|Cherrios|4.98|1
+2|Sprite|5.76|2
+3|Bread|3.99|3
+4|Roast Beef|5.99|4
+sqlite>
+
+sqlite> UPDATE items SET price=5.99 WHERE item_name="Bread";
+
+sqlite> SELECT * FROM aisle, items WHERE aisle_id = aisle.id;
+1|Aisle 1|1|Cherrios|4.98|1
+2|Aisle 2|2|Sprite|5.76|2
+3|Aisle 3|3|Bread|5.99|3
+4|Deli|4|Roast Beef|5.99|4
+
+
+sqlite> SELECT items.item_name, aisle.aisle_name FROM items JOIN aisle ON aisle_id = aisle.id;
+Cherrios|Aisle 1
+Sprite|Aisle 2
+Bread|Aisle 3
+Roast Beef|Deli
+
+sqlite> DELETE FROM items WHERE item_name = "Sprite";
